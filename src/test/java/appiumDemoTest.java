@@ -88,9 +88,6 @@ public class appiumDemoTest {
         } catch (InterruptedException e) {
         }
 
-        driver.findElement(By.id("user")).clear();
-        driver.findElement(By.id("pass")).clear();
-
     } while (vueltas < 4);
 
      };
